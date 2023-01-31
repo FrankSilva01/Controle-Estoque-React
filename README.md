@@ -26,6 +26,8 @@ Zerar estoque, ao clicar no botão o estoque é zerado
 
 ## Itens disponíveis na aplicação
 
-Estoque de camisa, calça e protetores.
+Estoque de camisa
+Estoque de calça 
+Estoque de protetores.
 
 Mas como dito acima pode ser adaptado para um sistema de controle de entrada e saída de materiais de vários tipos de comércio, não somente para roupas.
