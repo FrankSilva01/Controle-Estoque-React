@@ -29,3 +29,5 @@ Estoque de calça
 Estoque de protetores.
 
 Mas como dito acima pode ser adaptado para um sistema de controle de entrada e saída de materiais de vários tipos de comércio, não somente para roupas.
+
+No momento as informações estão sendo salvas no Local Storage, pretendo integrar com um banco de dados no futuro.
