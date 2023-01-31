@@ -4,7 +4,7 @@ import styles from '../styles/CamisaRoyal.module.css'
 import {IoRemoveCircleSharp} from 'react-icons/io5'
 
 function Royal() {
-   const [tamanhoCamisaRoyalP,setTamanhoCamisaRoyalP ]= useState(localStorage.getItem('camisaRoyalP'));
+  const [tamanhoCamisaRoyalP,setTamanhoCamisaRoyalP ]= useState(localStorage.getItem('camisaRoyalP'));
   const [tamanhoCamisaRoyalM,setTamanhoCamisaRoyalM]= useState(localStorage.getItem('camisaRoyalM'));
   const [tamanhoCamisaRoyalG,setTamanhoCamisaRoyalG]= useState(localStorage.getItem('camisaRoyalG'));
   const [tamanhoCamisaRoyalGg,setTamanhoCamisaRoyalGg]= useState(localStorage.getItem('camisaRoyalGg'));
@@ -13,50 +13,50 @@ function Royal() {
   const [tamanhoCamisaRoyalXxgg,setTamanhoCamisaRoyalXxgg]= useState(localStorage.getItem('camisaRoyalXxgg'));
 
   let adicionarCamisaRoyalP = () => {
-    localStorage.setItem('camisaRoyalP', Number (tamanhoCamisaRoyalP) +1);
-    let camisaRoyalP = localStorage.getItem('camisaRoyalP');
-    setTamanhoCamisaRoyalP(Number(camisaRoyalP));
+      localStorage.setItem('camisaRoyalP', Number (tamanhoCamisaRoyalP) +1);
+        let camisaRoyalP = localStorage.getItem('camisaRoyalP');
+      setTamanhoCamisaRoyalP(Number(camisaRoyalP));
     console.log('Adicionei ' + camisaRoyalP);
   }
   
   let adicionarCamisaRoyalM = () => {
-    localStorage.setItem('camisaRoyalM', Number (tamanhoCamisaRoyalM) +1);
-    let camisaRoyalM = localStorage.getItem('camisaRoyalM');
-    setTamanhoCamisaRoyalM(Number(camisaRoyalM));
+     localStorage.setItem('camisaRoyalM', Number (tamanhoCamisaRoyalM) +1);
+       let camisaRoyalM = localStorage.getItem('camisaRoyalM');
+      setTamanhoCamisaRoyalM(Number(camisaRoyalM));
     console.log('Adicionei ' + camisaRoyalM);
   }
   
   let adicionarcamisaRoyalG = (e) => {
-    localStorage.setItem('camisaRoyalG', Number (tamanhoCamisaRoyalG) +1);
-    let camisaRoyalG = localStorage.getItem('camisaRoyalG');
-    setTamanhoCamisaRoyalG(Number(camisaRoyalG));
+      localStorage.setItem('camisaRoyalG', Number (tamanhoCamisaRoyalG) +1);
+       let camisaRoyalG = localStorage.getItem('camisaRoyalG');
+      setTamanhoCamisaRoyalG(Number(camisaRoyalG));
     console.log('Adicionei ' + camisaRoyalG);
   }  
   
   let adicionarCamisaRoyalGg = (e) => { 
-    localStorage.setItem('camisaRoyalGg', Number (tamanhoCamisaRoyalGg) +1);
-    let camisaRoyalGg = localStorage.getItem('camisaRoyalGg');
-    setTamanhoCamisaRoyalGg(Number(camisaRoyalGg));
+     localStorage.setItem('camisaRoyalGg', Number (tamanhoCamisaRoyalGg) +1);
+       let camisaRoyalGg = localStorage.getItem('camisaRoyalGg');
+     setTamanhoCamisaRoyalGg(Number(camisaRoyalGg));
     console.log('Adicionei ' + camisaRoyalGg);
   } 
   
   let adicionarCamisaRoyalXg = (e) => {
-    localStorage.setItem('camisaRoyalXg', Number (tamanhoCamisaRoyalXg) +1);
-    let camisaRoyalXg = localStorage.getItem('camisaRoyalXg');
-    setTamanhoCamisaRoyalXg(Number(camisaRoyalXg));
+     localStorage.setItem('camisaRoyalXg', Number (tamanhoCamisaRoyalXg) +1);
+        let camisaRoyalXg = localStorage.getItem('camisaRoyalXg');
+      setTamanhoCamisaRoyalXg(Number(camisaRoyalXg));
     console.log('Adicionei ' + camisaRoyalXg);
   }
   
   let adicionarCamisaRoyalXxg = (e) => {
-    localStorage.setItem('camisaRoyalXxg', Number (tamanhoCamisaRoyalXxg) +1);
-    let camisaXxg = localStorage.getItem('camisaRoyalXxg');
-    setTamanhoCamisaRoyalXxg(Number(camisaXxg));
+      localStorage.setItem('camisaRoyalXxg', Number (tamanhoCamisaRoyalXxg) +1);
+        let camisaXxg = localStorage.getItem('camisaRoyalXxg');
+      setTamanhoCamisaRoyalXxg(Number(camisaXxg));
     console.log('Adicionei ' + camisaXxg);
   }
   let adicionarCamisaRoyalXxgg = (e) => {
-    localStorage.setItem('camisaRoyalXxgg', Number (tamanhoCamisaRoyalXxgg) +1);
-    let camisaRoyalXxgg = localStorage.getItem('camisaRoyalXxgg');
-    setTamanhoCamisaRoyalXxgg(Number(camisaRoyalXxgg));
+     localStorage.setItem('camisaRoyalXxgg', Number (tamanhoCamisaRoyalXxgg) +1);
+       let camisaRoyalXxgg = localStorage.getItem('camisaRoyalXxgg');
+      setTamanhoCamisaRoyalXxgg(Number(camisaRoyalXxgg));
     console.log('Adicionei ' + camisaRoyalXxgg);
   }
 
@@ -66,9 +66,9 @@ function Royal() {
       setTamanhoCamisaRoyalP(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalP', tamanhoCamisaRoyalP -1);
-      let camisaRoyalP = localStorage.getItem('camisaRoyalP');
-      setTamanhoCamisaRoyalP(Number(camisaRoyalP) );  
+       localStorage.setItem('camisaRoyalP', tamanhoCamisaRoyalP -1);
+         let camisaRoyalP = localStorage.getItem('camisaRoyalP');
+        setTamanhoCamisaRoyalP(Number(camisaRoyalP) );  
       console.log('Removi ' + camisaRoyalP);
     }
   }
@@ -79,9 +79,9 @@ function Royal() {
       setTamanhoCamisaRoyalM(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalM', tamanhoCamisaRoyalM -1);
-      let camisaRoyalM = localStorage.getItem('camisaRoyalM');
-      setTamanhoCamisaRoyalM(Number(camisaRoyalM) );  
+        localStorage.setItem('camisaRoyalM', tamanhoCamisaRoyalM -1);
+         let camisaRoyalM = localStorage.getItem('camisaRoyalM');
+        setTamanhoCamisaRoyalM(Number(camisaRoyalM) );  
       console.log('Removi ' + camisaRoyalM);
     }
   }
@@ -91,9 +91,9 @@ function Royal() {
       setTamanhoCamisaRoyalG(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalG', tamanhoCamisaRoyalG -1);
-      let camisaRoyalG = localStorage.getItem('camisaRoyalG');
-      setTamanhoCamisaRoyalG(Number(camisaRoyalG) );  
+        localStorage.setItem('camisaRoyalG', tamanhoCamisaRoyalG -1);
+          let camisaRoyalG = localStorage.getItem('camisaRoyalG');
+        setTamanhoCamisaRoyalG(Number(camisaRoyalG) );  
       console.log('Removi ' + camisaRoyalG);
     }
   }  
@@ -103,9 +103,9 @@ function Royal() {
       setTamanhoCamisaRoyalGg(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalGg', tamanhoCamisaRoyalGg -1);
-      let camisaRoyalGg = localStorage.getItem('camisaRoyalGg');
-      setTamanhoCamisaRoyalGg(Number(camisaRoyalGg) );  
+        localStorage.setItem('camisaRoyalGg', tamanhoCamisaRoyalGg -1);
+          let camisaRoyalGg = localStorage.getItem('camisaRoyalGg');
+        setTamanhoCamisaRoyalGg(Number(camisaRoyalGg) );  
       console.log('Removi ' + camisaRoyalGg);
     }
   } 
@@ -115,9 +115,9 @@ function Royal() {
       setTamanhoCamisaRoyalXg(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalXg', tamanhoCamisaRoyalXg -1);
-      let camisaRoyalXg = localStorage.getItem('camisaRoyalXg');
-      setTamanhoCamisaRoyalXg(Number(camisaRoyalXg) );  
+       localStorage.setItem('camisaRoyalXg', tamanhoCamisaRoyalXg -1);
+         let camisaRoyalXg = localStorage.getItem('camisaRoyalXg');
+        setTamanhoCamisaRoyalXg(Number(camisaRoyalXg) );  
       console.log('Removi ' + camisaRoyalXg);
     }
   } 
@@ -127,9 +127,9 @@ function Royal() {
       setTamanhoCamisaRoyalXxg(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalXxg', tamanhoCamisaRoyalXxg -1);
-      let camisaRoyalXxg = localStorage.getItem('camisaRoyalXxg');
-      setTamanhoCamisaRoyalXxg(Number(camisaRoyalXxg) );  
+        localStorage.setItem('camisaRoyalXxg', tamanhoCamisaRoyalXxg -1);
+          let camisaRoyalXxg = localStorage.getItem('camisaRoyalXxg');
+        setTamanhoCamisaRoyalXxg(Number(camisaRoyalXxg) );  
       console.log('Removi ' + camisaRoyalXxg);
     }
   }
@@ -139,9 +139,9 @@ function Royal() {
       setTamanhoCamisaRoyalXxgg(0);
     } 
     else {
-      localStorage.setItem('camisaRoyalXxgg', tamanhoCamisaRoyalXxgg -1);
-      let camisaRoyalXxgg = localStorage.getItem('camisaRoyalXxgg');
-      setTamanhoCamisaRoyalXxgg(Number(camisaRoyalXxgg) );  
+        localStorage.setItem('camisaRoyalXxgg', tamanhoCamisaRoyalXxgg -1);
+          let camisaRoyalXxgg = localStorage.getItem('camisaRoyalXxgg');
+        setTamanhoCamisaRoyalXxgg(Number(camisaRoyalXxgg) );  
       console.log('Removi ' + camisaRoyalXxgg);
     }
   }

@@ -12,28 +12,29 @@ function Protetor() {
   let [estoqueProtetores, setEstoqueProtetores] = useState(localStorage.getItem('protetores'))
   
   let handleAdicionarProtetor = (e) => {
-    localStorage.setItem('protetores', Number (estoqueProtetores) +1);
-    let protetores = localStorage.getItem('protetores');
-    setEstoqueProtetores(Number(protetores));
+     localStorage.setItem('protetores', Number (estoqueProtetores) +1);
+       let protetores = localStorage.getItem('protetores');
+     setEstoqueProtetores(Number(protetores));
     console.log('Adicionei ' + protetores);
   }
 
   let handleRemoverProtetor = (e) => {
     if(estoqueProtetores < 1) {
       setEstoqueProtetores(0);
-    } else {
-      localStorage.setItem('protetores', estoqueProtetores -1);
-      let protetores = localStorage.getItem('protetores');
-      setEstoqueProtetores(Number(protetores) );  
-      console.log('Removi ' + protetores);
-      
+    } 
+
+    else {
+       localStorage.setItem('protetores', estoqueProtetores -1);
+          let protetores = localStorage.getItem('protetores');
+        setEstoqueProtetores(Number(protetores) );  
+      console.log('Removi ' + protetores);   
     }
 }
 
   let zerarEstoque = (e) => {
-    localStorage.setItem('protetores',  estoqueProtetores = 0);  
-    setEstoqueProtetores(estoqueProtetores)
-    console.log( 'Zerei estoque '+ estoqueProtetores);
+     localStorage.setItem('protetores',  estoqueProtetores = 0);  
+       setEstoqueProtetores(estoqueProtetores)
+   console.log( 'Zerei estoque '+ estoqueProtetores);
   }
 
   let valorDigitado = (e) => {
@@ -50,10 +51,8 @@ function Protetor() {
         <NavLink className={styles.navLink} to="/Calcas">Calças</NavLink> {' '}
         <NavLink className={styles.navLink} to="/Protetor">Protetores</NavLink> {' '}
     <br />
-
  
         <h2><BsEarbuds /> {' '}  Protetor Auricular</h2>
-  
 
           <table  className={styles.tabela}>
             <thead >
@@ -93,8 +92,10 @@ function Protetor() {
           <div type="text" > Digite a quantidade
             <input type="text" onChange={valorDigitado} placeholder="Digite a quantia" />
           </div> 
+
               <br /> 
               <br />
+              
           <label > Total: {estoqueProtetores < 1 ? 'Estoque Zerado' : estoqueProtetores} </label>
     </div>
   )

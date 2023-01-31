@@ -13,50 +13,50 @@ function Preto() {
   const [tamanhoCamisaPretoXxgg,setTamanhoCamisaPretoXxgg]= useState(localStorage.getItem('camisaPretoXxgg'));
 
   let adicionarCamisaPretoP = () => {
-    localStorage.setItem('camisaPretoP', Number (tamanhoCamisaPretoP) +1);
-    let camisaPretoP = localStorage.getItem('camisaPretoP');
-    setTamanhoCamisaPretoP(Number(camisaPretoP));
+      localStorage.setItem('camisaPretoP', Number (tamanhoCamisaPretoP) +1);
+        let camisaPretoP = localStorage.getItem('camisaPretoP');
+      setTamanhoCamisaPretoP(Number(camisaPretoP));
     console.log('Adicionei ' + camisaPretoP);
   }
   
   let adicionarCamisaPretoM = () => {
-    localStorage.setItem('camisaPretoM', Number (tamanhoCamisaPretoM) +1);
-    let camisaPretoM = localStorage.getItem('camisaPretoM');
-    setTamanhoCamisaPretoM(Number(camisaPretoM));
+     localStorage.setItem('camisaPretoM', Number (tamanhoCamisaPretoM) +1);
+       let camisaPretoM = localStorage.getItem('camisaPretoM');
+      setTamanhoCamisaPretoM(Number(camisaPretoM));
     console.log('Adicionei ' + camisaPretoM);
   }
   
   let adicionarcamisaPretoG = (e) => {
-    localStorage.setItem('camisaPretoG', Number (tamanhoCamisaPretoG) +1);
-    let camisaPretoG = localStorage.getItem('camisaPretoG');
-    setTamanhoCamisaPretoG(Number(camisaPretoG));
+      localStorage.setItem('camisaPretoG', Number (tamanhoCamisaPretoG) +1);
+        let camisaPretoG = localStorage.getItem('camisaPretoG');
+      setTamanhoCamisaPretoG(Number(camisaPretoG));
     console.log('Adicionei ' + camisaPretoG);
   }  
   
   let adicionarCamisaPretoGg = (e) => { 
-    localStorage.setItem('camisaPretoGg', Number (tamanhoCamisaPretoGg) +1);
-    let camisaPretoGg = localStorage.getItem('camisaPretoGg');
-    setTamanhoCamisaPretoGg(Number(camisaPretoGg));
+      localStorage.setItem('camisaPretoGg', Number (tamanhoCamisaPretoGg) +1);
+        let camisaPretoGg = localStorage.getItem('camisaPretoGg');
+      setTamanhoCamisaPretoGg(Number(camisaPretoGg));
     console.log('Adicionei ' + camisaPretoGg);
   } 
   
   let adicionarCamisaPretoXg = (e) => {
-    localStorage.setItem('camisaPretoXg', Number (tamanhoCamisaPretoXg) +1);
-    let camisaPretoXg = localStorage.getItem('camisaPretoXg');
-    setTamanhoCamisaPretoXg(Number(camisaPretoXg));
+      localStorage.setItem('camisaPretoXg', Number (tamanhoCamisaPretoXg) +1);
+        let camisaPretoXg = localStorage.getItem('camisaPretoXg');
+      setTamanhoCamisaPretoXg(Number(camisaPretoXg));
     console.log('Adicionei ' + camisaPretoXg);
   }
   
   let adicionarCamisaPretoXxg = (e) => {
-    localStorage.setItem('camisaPretoXxg', Number (tamanhoCamisaPretoXxg) +1);
-    let camisaXxg = localStorage.getItem('camisaPretoXxg');
-    setTamanhoCamisaPretoXxg(Number(camisaXxg));
+      localStorage.setItem('camisaPretoXxg', Number (tamanhoCamisaPretoXxg) +1);
+        let camisaXxg = localStorage.getItem('camisaPretoXxg');
+      setTamanhoCamisaPretoXxg(Number(camisaXxg));
     console.log('Adicionei ' + camisaXxg);
   }
   let adicionarCamisaPretoXxgg = (e) => {
-    localStorage.setItem('camisaPretoXxgg', Number (tamanhoCamisaPretoXxgg) +1);
-    let camisaPretoXxgg = localStorage.getItem('camisaPretoXxgg');
-    setTamanhoCamisaPretoXxgg(Number(camisaPretoXxgg));
+     localStorage.setItem('camisaPretoXxgg', Number (tamanhoCamisaPretoXxgg) +1);
+       let camisaPretoXxgg = localStorage.getItem('camisaPretoXxgg');
+      setTamanhoCamisaPretoXxgg(Number(camisaPretoXxgg));
     console.log('Adicionei ' + camisaPretoXxgg);
   }
 
@@ -66,9 +66,9 @@ function Preto() {
       setTamanhoCamisaPretoP(0);
     } 
     else {
-      localStorage.setItem('camisaPretoP', tamanhoCamisaPretoP -1);
-      let camisaPretoP = localStorage.getItem('camisaPretoP');
-      setTamanhoCamisaPretoP(Number(camisaPretoP) );  
+       localStorage.setItem('camisaPretoP', tamanhoCamisaPretoP -1);
+         let camisaPretoP = localStorage.getItem('camisaPretoP');
+       setTamanhoCamisaPretoP(Number(camisaPretoP) );  
       console.log('Removi ' + camisaPretoP);
     }
   }
@@ -79,9 +79,9 @@ function Preto() {
       setTamanhoCamisaPretoM(0);
     } 
     else {
-      localStorage.setItem('camisaPretoM', tamanhoCamisaPretoM -1);
-      let camisaPretoM = localStorage.getItem('camisaPretoM');
-      setTamanhoCamisaPretoM(Number(camisaPretoM) );  
+       localStorage.setItem('camisaPretoM', tamanhoCamisaPretoM -1);
+          let camisaPretoM = localStorage.getItem('camisaPretoM');
+        setTamanhoCamisaPretoM(Number(camisaPretoM) );  
       console.log('Removi ' + camisaPretoM);
     }
   }
@@ -91,9 +91,9 @@ function Preto() {
       setTamanhoCamisaPretoG(0);
     } 
     else {
-      localStorage.setItem('camisaPretoG', tamanhoCamisaPretoG -1);
-      let camisaPretoG = localStorage.getItem('camisaPretoG');
-      setTamanhoCamisaPretoG(Number(camisaPretoG) );  
+        localStorage.setItem('camisaPretoG', tamanhoCamisaPretoG -1);
+          let camisaPretoG = localStorage.getItem('camisaPretoG');
+        setTamanhoCamisaPretoG(Number(camisaPretoG) );  
       console.log('Removi ' + camisaPretoG);
     }
   }  
