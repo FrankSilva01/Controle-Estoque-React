@@ -2,10 +2,6 @@
 
 Pode ser adaptado para diversos itens não somente uniformes, como roupas ou itens diversos como eletrodomésticos e etcs 
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### Instalando o necessário
 
 Aplicativo criado em React.Js portanto é necessário instalar o mesmo utilizando npx create-react-app e o nome da aplicação.
