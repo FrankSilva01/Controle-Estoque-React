@@ -13,50 +13,50 @@ function Marinho() {
   const [tamanhoCamisaMarinhoXxgg,setTamanhoCamisaMarinhoXxgg]= useState(localStorage.getItem('camisaMarinhoXxgg'));
 
   let adicionarCamisaMarinhoP = () => {
-    localStorage.setItem('camisaMarinhoP', Number (tamanhoCamisaMarinhoP) +1);
-    let camisaMarinhoP = localStorage.getItem('camisaMarinhoP');
-    setTamanhoCamisaMarinhoP(Number(camisaMarinhoP));
-    console.log('Adicionei ' + camisaMarinhoP);
+     localStorage.setItem('camisaMarinhoP', Number (tamanhoCamisaMarinhoP) +1);
+        let camisaMarinhoP = localStorage.getItem('camisaMarinhoP');
+       setTamanhoCamisaMarinhoP(Number(camisaMarinhoP));
+     console.log('Adicionei ' + camisaMarinhoP);
   }
   
   let adicionarCamisaMarinhoM = () => {
-    localStorage.setItem('camisaMarinhoM', Number (tamanhoCamisaMarinhoM) +1);
-    let camisaMarinhoM = localStorage.getItem('camisaMarinhoM');
-    setTamanhoCamisaMarinhoM(Number(camisaMarinhoM));
+     localStorage.setItem('camisaMarinhoM', Number (tamanhoCamisaMarinhoM) +1);
+        let camisaMarinhoM = localStorage.getItem('camisaMarinhoM');
+       setTamanhoCamisaMarinhoM(Number(camisaMarinhoM));
     console.log('Adicionei ' + camisaMarinhoM);
   }
   
   let adicionarcamisaMarinhoG = (e) => {
-    localStorage.setItem('camisaMarinhoG', Number (tamanhoCamisaMarinhoG) +1);
-    let camisaMarinhoG = localStorage.getItem('camisaMarinhoG');
-    setTamanhoCamisaMarinhoG(Number(camisaMarinhoG));
+     localStorage.setItem('camisaMarinhoG', Number (tamanhoCamisaMarinhoG) +1);
+       let camisaMarinhoG = localStorage.getItem('camisaMarinhoG');
+      setTamanhoCamisaMarinhoG(Number(camisaMarinhoG));
     console.log('Adicionei ' + camisaMarinhoG);
   }  
   
   let adicionarCamisaMarinhoGg = (e) => { 
-    localStorage.setItem('camisaMarinhoGg', Number (tamanhoCamisaMarinhoGg) +1);
-    let camisaMarinhoGg = localStorage.getItem('camisaMarinhoGg');
-    setTamanhoCamisaMarinhoGg(Number(camisaMarinhoGg));
+      localStorage.setItem('camisaMarinhoGg', Number (tamanhoCamisaMarinhoGg) +1);
+        let camisaMarinhoGg = localStorage.getItem('camisaMarinhoGg');
+      setTamanhoCamisaMarinhoGg(Number(camisaMarinhoGg));
     console.log('Adicionei ' + camisaMarinhoGg);
   } 
   
   let adicionarCamisaMarinhoXg = (e) => {
-    localStorage.setItem('camisaMarinhoXg', Number (tamanhoCamisaMarinhoXg) +1);
-    let camisaMarinhoXg = localStorage.getItem('camisaMarinhoXg');
-    setTamanhoCamisaMarinhoXg(Number(camisaMarinhoXg));
-    console.log('Adicionei ' + camisaMarinhoXg);
+     localStorage.setItem('camisaMarinhoXg', Number (tamanhoCamisaMarinhoXg) +1);
+        let camisaMarinhoXg = localStorage.getItem('camisaMarinhoXg');
+       setTamanhoCamisaMarinhoXg(Number(camisaMarinhoXg));
+     console.log('Adicionei ' + camisaMarinhoXg);
   }
   
   let adicionarCamisaMarinhoXxg = (e) => {
-    localStorage.setItem('camisaMarinhoXxg', Number (tamanhoCamisaMarinhoXxg) +1);
-    let camisaXxg = localStorage.getItem('camisaMarinhoXxg');
-    setTamanhoCamisaMarinhoXxg(Number(camisaXxg));
+      localStorage.setItem('camisaMarinhoXxg', Number (tamanhoCamisaMarinhoXxg) +1);
+        let camisaXxg = localStorage.getItem('camisaMarinhoXxg');
+      setTamanhoCamisaMarinhoXxg(Number(camisaXxg));
     console.log('Adicionei ' + camisaXxg);
   }
   let adicionarCamisaMarinhoXxgg = (e) => {
-    localStorage.setItem('camisaMarinhoXxgg', Number (tamanhoCamisaMarinhoXxgg) +1);
-    let camisaMarinhoXxgg = localStorage.getItem('camisaMarinhoXxgg');
-    setTamanhoCamisaMarinhoXxgg(Number(camisaMarinhoXxgg));
+     localStorage.setItem('camisaMarinhoXxgg', Number (tamanhoCamisaMarinhoXxgg) +1);
+        let camisaMarinhoXxgg = localStorage.getItem('camisaMarinhoXxgg');
+       setTamanhoCamisaMarinhoXxgg(Number(camisaMarinhoXxgg));
     console.log('Adicionei ' + camisaMarinhoXxgg);
   }
 
@@ -79,21 +79,22 @@ function Marinho() {
       setTamanhoCamisaMarinhoM(0);
     } 
     else {
-      localStorage.setItem('camisaMarinhoM', tamanhoCamisaMarinhoM -1);
-      let camisaMarinhoM = localStorage.getItem('camisaMarinhoM');
-      setTamanhoCamisaMarinhoM(Number(camisaMarinhoM) );  
+       localStorage.setItem('camisaMarinhoM', tamanhoCamisaMarinhoM -1);
+          let camisaMarinhoM = localStorage.getItem('camisaMarinhoM');
+        setTamanhoCamisaMarinhoM(Number(camisaMarinhoM) );  
       console.log('Removi ' + camisaMarinhoM);
     }
   }
 
   let removerCamisaMarinhoG = () => {
     if(tamanhoCamisaMarinhoG < 1) {
-      setTamanhoCamisaMarinhoG(0);
-    } 
+        setTamanhoCamisaMarinhoG(0);
+    }
+    
     else {
-      localStorage.setItem('camisaMarinhoG', tamanhoCamisaMarinhoG -1);
-      let camisaMarinhoG = localStorage.getItem('camisaMarinhoG');
-      setTamanhoCamisaMarinhoG(Number(camisaMarinhoG) );  
+        localStorage.setItem('camisaMarinhoG', tamanhoCamisaMarinhoG -1);
+          let camisaMarinhoG = localStorage.getItem('camisaMarinhoG');
+         setTamanhoCamisaMarinhoG(Number(camisaMarinhoG) );  
       console.log('Removi ' + camisaMarinhoG);
     }
   }  
@@ -103,9 +104,9 @@ function Marinho() {
       setTamanhoCamisaMarinhoGg(0);
     } 
     else {
-      localStorage.setItem('camisaMarinhoGg', tamanhoCamisaMarinhoGg -1);
-      let camisaMarinhoGg = localStorage.getItem('camisaMarinhoGg');
-      setTamanhoCamisaMarinhoGg(Number(camisaMarinhoGg) );  
+        localStorage.setItem('camisaMarinhoGg', tamanhoCamisaMarinhoGg -1);
+         let camisaMarinhoGg = localStorage.getItem('camisaMarinhoGg');
+        setTamanhoCamisaMarinhoGg(Number(camisaMarinhoGg) );  
       console.log('Removi ' + camisaMarinhoGg);
     }
   } 
@@ -115,9 +116,9 @@ function Marinho() {
       setTamanhoCamisaMarinhoXg(0);
     } 
     else {
-      localStorage.setItem('camisaMarinhoXg', tamanhoCamisaMarinhoXg -1);
-      let camisaMarinhoXg = localStorage.getItem('camisaMarinhoXg');
-      setTamanhoCamisaMarinhoXg(Number(camisaMarinhoXg) );  
+       localStorage.setItem('camisaMarinhoXg', tamanhoCamisaMarinhoXg -1);
+          let camisaMarinhoXg = localStorage.getItem('camisaMarinhoXg');
+         setTamanhoCamisaMarinhoXg(Number(camisaMarinhoXg) );  
       console.log('Removi ' + camisaMarinhoXg);
     }
   } 
@@ -127,9 +128,9 @@ function Marinho() {
       setTamanhoCamisaMarinhoXxg(0);
     } 
     else {
-      localStorage.setItem('camisaMarinhoXxg', tamanhoCamisaMarinhoXxg -1);
-      let camisaMarinhoXxg = localStorage.getItem('camisaMarinhoXxg');
-      setTamanhoCamisaMarinhoXxg(Number(camisaMarinhoXxg) );  
+        localStorage.setItem('camisaMarinhoXxg', tamanhoCamisaMarinhoXxg -1);
+          let camisaMarinhoXxg = localStorage.getItem('camisaMarinhoXxg');
+        setTamanhoCamisaMarinhoXxg(Number(camisaMarinhoXxg) );  
       console.log('Removi ' + camisaMarinhoXxg);
     }
   }
@@ -139,9 +140,9 @@ function Marinho() {
       setTamanhoCamisaMarinhoXxgg(0);
     } 
     else {
-      localStorage.setItem('camisaMarinhoXxgg', tamanhoCamisaMarinhoXxgg -1);
-      let camisaMarinhoXxgg = localStorage.getItem('camisaMarinhoXxgg');
-      setTamanhoCamisaMarinhoXxgg(Number(camisaMarinhoXxgg) );  
+       localStorage.setItem('camisaMarinhoXxgg', tamanhoCamisaMarinhoXxgg -1);
+         let camisaMarinhoXxgg = localStorage.getItem('camisaMarinhoXxgg');
+        setTamanhoCamisaMarinhoXxgg(Number(camisaMarinhoXxgg) );  
       console.log('Removi ' + camisaMarinhoXxgg);
     }
   }
@@ -152,68 +153,68 @@ function Marinho() {
           <table className={styles.tabela}>
         <thead>
           <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Cor</th>
-            <th scope="col">Tamanho</th>
+             <th scope="col">ID</th>
+               <th scope="col">Tipo</th>
+                  <th scope="col">Cor</th>
+               <th scope="col">Tamanho</th>
             <th scope="col">Quantidade</th>
           </tr>
         </thead>
 
         <tbody>
           <tr >
-            <th scope="row" className={styles.texto}>1</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>P</td>
+             <th scope="row" className={styles.texto}>1</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Marinho</td>
+               <td className={styles.texto}>P</td>
             <td >{tamanhoCamisaMarinhoP < 1 ? 0 : tamanhoCamisaMarinhoP}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>2</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>M</td>
+              <th scope="row" className={styles.texto}>2</th>
+               <td className={styles.texto}>Camiseta</td>
+                 <td className={styles.texto}>Azul Marinho</td>
+              <td className={styles.texto}>M</td>
             <td >{tamanhoCamisaMarinhoM < 1 ? 0 : tamanhoCamisaMarinhoM}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>3</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>G</td>
+              <th scope="row" className={styles.texto}>3</th>
+               <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Marinho</td>
+               <td className={styles.texto}>G</td>
             <td >{tamanhoCamisaMarinhoG < 1 ? 0 : tamanhoCamisaMarinhoG}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>4</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>GG</td>
+             <th scope="row" className={styles.texto}>4</th>
+               <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Marinho</td>
+                <td className={styles.texto}>GG</td>
             <td >{tamanhoCamisaMarinhoGg < 1 ? 0 : tamanhoCamisaMarinhoGg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>5</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>XG</td>
+             <th scope="row" className={styles.texto}>5</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Marinho</td>
+               <td className={styles.texto}>XG</td>
             <td >{tamanhoCamisaMarinhoXg < 1 ? 0 : tamanhoCamisaMarinhoXg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>6</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>XXG</td>
+              <th scope="row" className={styles.texto}>6</th>
+                <td className={styles.texto}>Camiseta</td>
+                 <td className={styles.texto}>Azul Marinho</td>
+               <td className={styles.texto}>XXG</td>
             <td>{tamanhoCamisaMarinhoXxg < 1 ? 0 : tamanhoCamisaMarinhoXxg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>7</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Marinho</td>
-            <td className={styles.texto}>XXGG</td>
+             <th scope="row" className={styles.texto}>7</th>
+               <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Marinho</td>
+               <td className={styles.texto}>XXGG</td>
             <td >{tamanhoCamisaMarinhoXxgg < 1 ? 0 : tamanhoCamisaMarinhoXxgg}</td>
           </tr>
         </tbody>
