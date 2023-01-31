@@ -14,7 +14,8 @@ Para instalar o react-router-dom navegue pelo terminal até a pasta da aplicaç�
 
 O react-icons é o mesmo procedimento, necessário navegar até a pasta da aplicação e digitar npm react-icons
 
-### Funcionalidades ![alt text](https://st2.depositphotos.com/3591429/7708/i/450/depositphotos_77088397-stock-photo-team-functionality-industry-teamwork-concept.jpg)
+### Funcionalidades
+![alt text](https://st2.depositphotos.com/3591429/7708/i/450/depositphotos_77088397-stock-photo-team-functionality-industry-teamwork-concept.jpg)
 
 Inserir itens nas tabelas respectivas ao clicar no botão + ao lado da tabela do respectivo tamanho.
 
