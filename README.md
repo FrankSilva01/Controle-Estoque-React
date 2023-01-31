@@ -1,23 +1,21 @@
-# Getting Started with Create React App
+# Controle de estoque para uniformes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pode ser adaptado para diversos itens não somente uniformes, como roupas ou itens diversos como eletrodomésticos e etcs 
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### Instalando o necessário
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplicativo criado em React.Js portanto é necessário instalar o mesmo utilizando npx create-react-app e o nome da aplicação.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dependências necessárias
 
-### `npm test`
+Para essa aplicação é necessário utilizar duas dependências, react-router-dom e react-icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para instalar o react-router-dom navegue pelo terminal até a pasta da aplicação e digite npm react-router-dom
+O react-icons o mesmo se aplica, necessário navegar até a pasta da aplicação e digitar npm react-icons
 
 ### `npm run build`
 
