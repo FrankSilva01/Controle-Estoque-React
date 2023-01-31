@@ -151,82 +151,82 @@ function Royal() {
          <table className={styles.tabela}>
         <thead>
           <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Cor</th>
-            <th scope="col">Tamanho</th>
-            <th scope="col">Quantidade</th>
-          </tr>
+              <th scope="col">ID</th>
+                 <th scope="col">Tipo</th>
+                   <th scope="col">Cor</th>
+                 <th scope="col">Tamanho</th>
+               <th scope="col">Quantidade</th>
+            </tr>
         </thead>
 
         <tbody>
           <tr>
             <th scope="row" className={styles.texto}>1</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>P</td>
-            <td type="number" >
-            {tamanhoCamisaRoyalP < 1 ? 0 : tamanhoCamisaRoyalP}
+              <td className={styles.texto}>Camiseta</td>
+                <td className={styles.texto}>Azul Royal</td>
+              <td className={styles.texto}>P</td>
+            <td  >
+          {tamanhoCamisaRoyalP < 1 ? 0 : tamanhoCamisaRoyalP}
+        </td>
+       </tr>
+
+          <tr>
+               <th scope="row" className={styles.texto}>2</th>
+                 <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Royal</td>
+                 <td className={styles.texto}>M</td>
+               <td  >
+              {tamanhoCamisaRoyalM < 1 ? 0 : tamanhoCamisaRoyalM}
             </td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>2</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>M</td>
-            <td type="number" >
-            {tamanhoCamisaRoyalM < 1 ? 0 : tamanhoCamisaRoyalM}
+              <th scope="row" className={styles.texto}>3</th>
+                  <td className={styles.texto}>Camiseta</td>
+                    <td className={styles.texto}>Azul Royal</td>
+                   <td className={styles.texto}>G</td>
+                 <td  >
+              {tamanhoCamisaRoyalG < 1 ? 0 : tamanhoCamisaRoyalG}
             </td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>3</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>G</td>
-            <td type="number" >
-            {tamanhoCamisaRoyalG < 1 ? 0 : tamanhoCamisaRoyalG}
+              <th scope="row" className={styles.texto}>4</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Royal</td>
+                    <td className={styles.texto}>GG</td>
+                 <td  >
+              {tamanhoCamisaRoyalGg < 1 ? 0 : tamanhoCamisaRoyalGg}
             </td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>4</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>GG</td>
-            <td type="number" >
-           {tamanhoCamisaRoyalGg < 1 ? 0 : tamanhoCamisaRoyalGg}
+              <th scope="row" className={styles.texto}>5</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Azul Royal</td>
+                  <td className={styles.texto}>XG</td>
+                <td  >
+              {tamanhoCamisaRoyalXg < 1 ? 0 : tamanhoCamisaRoyalXg}
             </td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>5</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>XG</td>
-            <td type="number" >
-            {tamanhoCamisaRoyalXg < 1 ? 0 : tamanhoCamisaRoyalXg}
+               <th scope="row" className={styles.texto}>6</th>
+                   <td className={styles.texto}>Camiseta</td>
+                    <td className={styles.texto}>Azul Royal</td>
+                  <td className={styles.texto}>XXG</td>
+                <td  >
+              {tamanhoCamisaRoyalXxg < 1 ? 0 : tamanhoCamisaRoyalXxg}
             </td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>6</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>XXG</td>
-            <td type="number" >
-           {tamanhoCamisaRoyalXxg < 1 ? 0 : tamanhoCamisaRoyalXxg}
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row" className={styles.texto}>7</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Azul Royal</td>
-            <td className={styles.texto}>XXGG</td>
-            <td type="number" >
-           {tamanhoCamisaRoyalXxgg < 1 ? 0 : tamanhoCamisaRoyalXxgg}
+              <th scope="row" className={styles.texto}>7</th>
+                  <td className={styles.texto}>Camiseta</td>
+                    <td className={styles.texto}>Azul Royal</td>
+                    <td className={styles.texto}>XXGG</td>
+                  <td  >
+                {tamanhoCamisaRoyalXxgg < 1 ? 0 : tamanhoCamisaRoyalXxgg}
             </td>
           </tr>
         </tbody>

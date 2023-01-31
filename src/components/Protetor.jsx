@@ -45,11 +45,10 @@ function Protetor() {
     <div>
       <h1> Controle de Estoque</h1>
     <br />
-      <NavLink className={styles.navLink} to="/">Inicio</NavLink> {' '}
-      <NavLink className={styles.navLink} to="/Camisetas">Camisetas</NavLink> {' '}
-      <NavLink className={styles.navLink} to="/Calcas">Calças</NavLink> {' '}
-      <NavLink className={styles.navLink} to="/Protetor">Protetores</NavLink> {' '}
- 
+        <NavLink className={styles.navLink} to="/">Inicio</NavLink> {' '}
+        <NavLink className={styles.navLink} to="/Camisetas">Camisetas</NavLink> {' '}
+        <NavLink className={styles.navLink} to="/Calcas">Calças</NavLink> {' '}
+        <NavLink className={styles.navLink} to="/Protetor">Protetores</NavLink> {' '}
     <br />
 
  
@@ -58,19 +57,18 @@ function Protetor() {
 
           <table  className={styles.tabela}>
             <thead >
-              <tr >
-                <th scope="col" >ID</th>
-                <th scope="col" >Tipo</th>
-                <th scope="col" >Quantidade</th>
-              </tr>
+               <tr >
+                 <th scope="col" >ID</th>
+                    <th scope="col" >Tipo</th>
+                  <th scope="col" >Quantidade</th>
+                </tr>
             </thead>
-            <tbody>
+          <tbody>  
               <tr>
-                <th scope="row" >1</th>
-                <td className={styles.texto}>Protetor Auricular</td>
-                <td > {estoqueProtetores}</td>
+                  <th scope="row" >1</th>
+                    <td className={styles.texto}>Protetor Auricular</td>
+                  <td > {estoqueProtetores < 1 ? 0 : estoqueProtetores}</td>
               </tr>
-
             </tbody>
           </table>      
           
@@ -95,7 +93,8 @@ function Protetor() {
           <div type="text" > Digite a quantidade
             <input type="text" onChange={valorDigitado} placeholder="Digite a quantia" />
           </div> 
-            <br /> <br />
+              <br /> 
+              <br />
           <label > Total: {estoqueProtetores < 1 ? 'Estoque Zerado' : estoqueProtetores} </label>
     </div>
   )

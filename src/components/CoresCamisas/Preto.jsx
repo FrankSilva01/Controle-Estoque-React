@@ -103,10 +103,10 @@ function Preto() {
       setTamanhoCamisaPretoGg(0);
     } 
     else {
-      localStorage.setItem('camisaPretoGg', tamanhoCamisaPretoGg -1);
-      let camisaPretoGg = localStorage.getItem('camisaPretoGg');
-      setTamanhoCamisaPretoGg(Number(camisaPretoGg) );  
-      console.log('Removi ' + camisaPretoGg);
+          localStorage.setItem('camisaPretoGg', tamanhoCamisaPretoGg -1);
+            let camisaPretoGg = localStorage.getItem('camisaPretoGg');
+          setTamanhoCamisaPretoGg(Number(camisaPretoGg) );  
+       console.log('Removi ' + camisaPretoGg);
     }
   } 
   
@@ -114,11 +114,12 @@ function Preto() {
     if(tamanhoCamisaPretoXg < 1) {
       setTamanhoCamisaPretoXg(0);
     } 
+
     else {
-      localStorage.setItem('camisaPretoXg', tamanhoCamisaPretoXg -1);
-      let camisaPretoXg = localStorage.getItem('camisaPretoXg');
-      setTamanhoCamisaPretoXg(Number(camisaPretoXg) );  
-      console.log('Removi ' + camisaPretoXg);
+          localStorage.setItem('camisaPretoXg', tamanhoCamisaPretoXg -1);
+            let camisaPretoXg = localStorage.getItem('camisaPretoXg');
+          setTamanhoCamisaPretoXg(Number(camisaPretoXg) );  
+        console.log('Removi ' + camisaPretoXg);
     }
   } 
 
@@ -126,10 +127,11 @@ function Preto() {
     if(tamanhoCamisaPretoXxg < 1) {
       setTamanhoCamisaPretoXxg(0);
     } 
+
     else {
-      localStorage.setItem('camisaPretoXxg', tamanhoCamisaPretoXxg -1);
-      let camisaPretoXxg = localStorage.getItem('camisaPretoXxg');
-      setTamanhoCamisaPretoXxg(Number(camisaPretoXxg) );  
+        localStorage.setItem('camisaPretoXxg', tamanhoCamisaPretoXxg -1);
+          let camisaPretoXxg = localStorage.getItem('camisaPretoXxg');
+         setTamanhoCamisaPretoXxg(Number(camisaPretoXxg) );  
       console.log('Removi ' + camisaPretoXxg);
     }
   }
@@ -138,10 +140,11 @@ function Preto() {
     if(tamanhoCamisaPretoXxgg < 1) {
       setTamanhoCamisaPretoXxgg(0);
     } 
+
     else {
-      localStorage.setItem('camisaPretoXxgg', tamanhoCamisaPretoXxgg -1);
-      let camisaPretoXxgg = localStorage.getItem('camisaPretoXxgg');
-      setTamanhoCamisaPretoXxgg(Number(camisaPretoXxgg) );  
+       localStorage.setItem('camisaPretoXxgg', tamanhoCamisaPretoXxgg -1);
+          let camisaPretoXxgg = localStorage.getItem('camisaPretoXxgg');
+        setTamanhoCamisaPretoXxgg(Number(camisaPretoXxgg) );  
       console.log('Removi ' + camisaPretoXxgg);
     }
   }
@@ -151,69 +154,69 @@ function Preto() {
          <table className={styles.tabela}>
         <thead>
           <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Cor</th>
-            <th scope="col">Tamanho</th>
+              <th scope="col">ID</th>
+                <th scope="col">Tipo</th>
+                 <th scope="col">Cor</th>
+              <th scope="col">Tamanho</th>
             <th scope="col">Quantidade</th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
-            <th scope="row" className={styles.texto}>1</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>P</td>
+              <th scope="row" className={styles.texto}>1</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Preto</td>
+              <td className={styles.texto}>P</td>
             <td>{tamanhoCamisaPretoP < 1 ? 0 : tamanhoCamisaPretoP}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>2</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>M</td>
+              <th scope="row" className={styles.texto}>2</th>
+                <td className={styles.texto}>Camiseta</td>
+                 <td className={styles.texto}>Preto</td>
+              <td className={styles.texto}>M</td>
             <td className={styles.texto}>{tamanhoCamisaPretoM < 1 ? 0 : tamanhoCamisaPretoM}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>3</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>G</td>
-            <td >{tamanhoCamisaPretoG < 1 ? 0 : tamanhoCamisaPretoG}</td>
+              <th scope="row" className={styles.texto}>3</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Preto</td>
+                <td className={styles.texto}>G</td>
+              <td >{tamanhoCamisaPretoG < 1 ? 0 : tamanhoCamisaPretoG}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>4</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>GG</td>
-            <td >{tamanhoCamisaPretoGg < 1 ? 0 : tamanhoCamisaPretoGg}</td>
+              <th scope="row" className={styles.texto}>4</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Preto</td>
+                <td className={styles.texto}>GG</td>
+              <td >{tamanhoCamisaPretoGg < 1 ? 0 : tamanhoCamisaPretoGg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>5</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>XG</td>
+              <th scope="row" className={styles.texto}>5</th>
+                <td className={styles.texto}>Camiseta</td>
+                 <td className={styles.texto}>Preto</td>
+               <td className={styles.texto}>XG</td>
             <td >{tamanhoCamisaPretoXg < 1 ? 0 : tamanhoCamisaPretoXg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>6</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>XXG</td>
-            <td >{tamanhoCamisaPretoXxg < 1 ? 0 : tamanhoCamisaPretoXxg}</td>
+              <th scope="row" className={styles.texto}>6</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Preto</td>
+                <td className={styles.texto}>XXG</td>
+              <td >{tamanhoCamisaPretoXxg < 1 ? 0 : tamanhoCamisaPretoXxg}</td>
           </tr>
 
           <tr>
-            <th scope="row" className={styles.texto}>6</th>
-            <td className={styles.texto}>Camiseta</td>
-            <td className={styles.texto}>Preto</td>
-            <td className={styles.texto}>XXGG</td>
-            <td >{tamanhoCamisaPretoXxgg < 1 ? 0 : tamanhoCamisaPretoXxgg}</td>
+             <th scope="row" className={styles.texto}>6</th>
+                <td className={styles.texto}>Camiseta</td>
+                  <td className={styles.texto}>Preto</td>
+                <td className={styles.texto}>XXGG</td>
+              <td >{tamanhoCamisaPretoXxgg < 1 ? 0 : tamanhoCamisaPretoXxgg}</td>
           </tr>
         </tbody>
       </table>
