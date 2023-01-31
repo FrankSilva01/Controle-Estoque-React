@@ -1,0 +1,108 @@
+.tabela {
+    text-align: center;
+    align-items: center;
+    display: inline-block; ;
+    margin: 10px;
+}
+
+.texto {
+    padding: 7px;
+}
+
+.botaoP {
+    position: relative;
+    bottom: 285px;
+    left: 320px;
+    cursor: pointer;
+}
+
+.botaoM {
+    position: relative;
+    bottom: 246px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.botaoG {
+    position: relative;
+    bottom: 208px;
+    left: 280px;
+    cursor: pointer;
+}
+
+.botaoGg {
+    position: relative;
+    bottom: 173px;
+    left: 260px;
+    cursor: pointer;
+}
+
+.botaoXg {
+    position: relative;
+    bottom: 135px;
+    left: 240px;
+    cursor: pointer;
+}
+
+.botaoXxg {
+    position: relative;
+    bottom: 98px;
+    left: 220px;
+    cursor: pointer;
+}
+
+.botaoXxxg {
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+    cursor: pointer;
+}
+
+.botaoRemoverP {
+    position: relative;
+    bottom: 285px;
+    left: 210px;
+    cursor: pointer;
+}
+
+.botaoRemoverM {
+    position: relative;
+    bottom: 246px;
+    left: 195px;
+    cursor: pointer;
+}
+
+.botaoRemoverG {
+    position: relative;
+    bottom: 208px;
+    left: 179px;
+    cursor: pointer;
+}
+
+.botaoRemoverGg {
+    position: relative;
+    bottom: 172px;
+    left: 163px;
+    cursor: pointer;
+}
+
+.botaoRemoverXg {
+    position: relative;
+    bottom: 135px;
+    left: 146px;
+    cursor: pointer;
+}
+
+.botaoRemoverXxg {
+    position: relative;
+    bottom: 98px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.botaoRemoverXxgg {
+    position: relative;
+    bottom: 60px;
+    left: 115px;
+    cursor: pointer;
+}
