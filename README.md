@@ -16,8 +16,11 @@ O react-icons é o mesmo procedimento, necessário navegar até a pasta da aplic
 
 ### Funcionalidades
 
+
+![image](https://uploaddeimagens.com.br/imagens/RfXeO40)
 Inserir itens nas tabelas respectivas ao clicar no botão + ao lado da tabela do respectivo tamanho.
 
+![image](https://uploaddeimagens.com.br/imagens/RfXeO40](https://uploaddeimagens.com.br/imagens/WwjAyms)
 Retirar itens na tabela respectiva ao clicar no botão - ao lado de cada tamanho.
 
 Zerar estoque, ao clicar no botão o estoque é zerado.
